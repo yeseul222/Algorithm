@@ -22,7 +22,7 @@ int main() {
 				cout << v[i];
 			}
 			else {
-				cout << (char)(v[i]+55);
+				cout << (char)(v[i]+55);	//(char)(v[i]- 10 + 'A')
 			}
 		}
 	}
