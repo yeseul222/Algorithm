@@ -13,7 +13,7 @@ int main() {
 			n /= i;
 		}
 	}
-	if (n > 1)
+	if (n > 1)	//n이 소수일 떄
 		s.insert(n);
 
 	multiset<int>::iterator iter;
